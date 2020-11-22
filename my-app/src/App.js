@@ -1,17 +1,15 @@
-import React, { useState } from "react";
-import Stars from "./components/stars";
-import Like from "./components/like"
-import "./App.css";
+import React from "react";
+import Earth from "./components/earth";
+import "./index.css";
+ 
+//import Navbar from "./components/navbar";
+
 
 
 function App() {
   return (
-    <div className="card">
-      <div className="box">
-        <Stars/>
-        <Like />
-
-      </div>
+    <div className="home-page">
+      <Earth/>
     </div>
   );
 }
